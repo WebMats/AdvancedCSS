@@ -9,6 +9,12 @@
 }
 html {
     font-size: 62.5%;
+    @include respond(tab-land) {
+        font-size: 56%;
+    }
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
 }
 
 :root { // basically html selector, but with higher specificity
