@@ -1,0 +1,13 @@
+.gallery {
+    // display: flex;
+    @include clearfix;
+    &__item {
+        display: inline-block;
+        width: 33.33333%;
+        float: left;
+    }
+    &__photo {
+        width: 100%;
+        // display: block;
+    }
+}

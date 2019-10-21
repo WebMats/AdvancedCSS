@@ -1,0 +1,22 @@
+.container {
+    max-width: 120rem;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    margin: 8rem auto;
+    box-shadow: $shadow-dark;
+    background-color: $color-grey-light-2;
+}
+
+.content {
+    display: table;
+    width: 100%;
+    // display: flex;
+}
+
+.hotel-view {
+    background-color: white;
+    display: table-cell;
+    // flex: 1;
+}

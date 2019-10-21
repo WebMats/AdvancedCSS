@@ -1,0 +1,80 @@
+.detail {
+    // display: flex;
+    padding: 4.5rem;
+    background-color: $color-grey-light-1;
+    border-bottom: $line;
+    font-size: 1.4rem;
+    height: 100%;
+}
+
+.description {
+    background-color: white;
+    box-shadow: $shadow-light;
+    padding: 3rem;
+    // flex: 0 0 60%;
+    // margin-right: 4.5rem;
+    & .paragraph:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+    & .list {
+        margin: 3rem 0rem;
+        list-style: none;
+        padding: 3rem 0rem;
+        border-top: $line;
+        border-bottom: $line;
+        // display: flex;
+        // flex-wrap: wrap;
+        columns: 2;
+        &__item {
+            // flex: 0 0 50%;
+            margin-bottom: 0.7rem;
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 1rem;
+                height: 1rem;
+                margin: 7px;
+                // // Older Browsers
+                // background-image: url('../images/chevron-thin-right.svg');
+                // background-size: cover;
+                background-color: $color-primary;
+                -webkit-mask-image: url('../images/chevron-thin-right.svg');
+                -webkit-mask-size: cover;
+                mask-size: cover;
+                vertical-align: middle;
+            }
+        }
+    }
+    & .recommend {
+        font-size: 1.3rem;
+        color: var(--color-grey-dark-3);
+        position: relative;
+        @include clearfix;
+        // display: flex;
+        &__photo {
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-sizing: content-box;
+            &:not(:last-child) {
+                margin-right: -1.5rem;
+            }
+        }
+        
+        &__count {
+            display: inline-block;
+            position: absolute;
+            bottom: 1.6rem;
+        }
+        
+        &__friends {
+            display: inline-block;
+            float: right;
+        }
+    }
+}
+
+.user-reviews {
+    // flex: 1;
+}
