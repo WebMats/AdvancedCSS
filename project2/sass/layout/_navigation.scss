@@ -1,20 +1,20 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
-    // flex: 0 0 18%;
-    width: 18% !important;
-    display: table-cell;
-    position: relative;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
+    // width: 18% !important;
+    // display: table-cell;
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 18%;
 }
 
 .side-nav {
     font-size: 1.4rem;
     list-style: none;
     margin-top: 3.5rem;
-    position: absolute;
-    top: 1rem;
+    // position: absolute;
+    // top: 1rem;
     &__item {
         position: relative;
         &:not(:last-child) {
@@ -50,8 +50,8 @@
         padding: 1.5rem 3rem;
         position: relative;
         z-index: 10;
-        // display: flex;
-        // align-items: center;
+        display: flex;
+        align-items: center;
     }
     &__icon {
         width: 1.75rem;
@@ -59,7 +59,7 @@
         margin-right: 2rem;
         // color of current element || parent element
         fill: currentColor;
-        vertical-align: text-bottom;
+        // vertical-align: text-bottom;
     }
 }
 
@@ -68,6 +68,6 @@
     text-align: center;
     padding: 2.5rem;
     color: $color-grey-light-4;
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
 }

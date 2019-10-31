@@ -7,16 +7,17 @@
     margin: 8rem auto;
     box-shadow: $shadow-dark;
     background-color: $color-grey-light-2;
+    min-height: 50rem;
 }
 
 .content {
-    display: table;
-    width: 100%;
-    // display: flex;
+    // display: table;
+    // width: 100%;
+    display: flex;
 }
 
 .hotel-view {
     background-color: white;
-    display: table-cell;
-    // flex: 1;
+    // display: table-cell;
+    flex: 1;
 }

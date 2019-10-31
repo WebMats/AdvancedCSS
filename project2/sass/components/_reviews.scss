@@ -1,14 +1,14 @@
 .review {
-    background-color: white;
-    box-shadow: $shadow-light;
-    padding: 3rem;
-    margin-bottom: 3.5rem;
-    position: relative;
-    overflow: hidden;
+    // background-color: white;
+    // box-shadow: $shadow-light;
+    // padding: 3rem;
+    // margin-bottom: 3.5rem;
+    // position: relative;
+    // overflow: hidden;
     &__text {
-        margin-bottom: 2rem;
-        z-index: 10;
-        position: relative;
+        // margin-bottom: 2rem;
+        // z-index: 10;
+        // position: relative;
     }
 
     &__user {
@@ -17,49 +17,49 @@
     }
 
     &__photo {
-        height: 4.5rem;
-        width: 4.5rem;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 1.5rem;
+        // height: 4.5rem;
+        // width: 4.5rem;
+        // border-radius: 50%;
+        // display: inline-block;
+        // margin-right: 1.5rem;
     }
 
     &__user-box {
-        display: inline-block;
+        // display: inline-block;
         // margin-right: auto;
     }
 
     &__user-name {
-        font-size: 1.1rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin-bottom: 4px;
+        // font-size: 1.1rem;
+        // font-weight: 600;
+        // text-transform: uppercase;
+        // margin-bottom: 4px;
     }
 
     &__user-date {
-        font-size: 1rem;
-        color: var(--color-grey-dark-3);
+        // font-size: 1rem;
+        // color: var(--color-grey-dark-3);
     }
 
     &__rating {
-        display: inline-block;
-        float: right;
-        color: $color-primary;
-        font-size: 2.2rem;
-        font-weight: 300;
+        // display: inline-block;
+        // float: right;
+        // color: $color-primary;
+        // font-size: 2.2rem;
+        // font-weight: 300;
     }
     &::before {
-        content: "\201C";
-        position: absolute;
-        top: -2.75rem;
-        left: -1rem;
-        line-height: 1;
-        font-size: 20rem;
-        color: $color-grey-light-2;
-        font-family: sans-serif;
-        z-index: 1
+        // content: "\201C";
+        // position: absolute;
+        // top: -2.75rem;
+        // left: -1rem;
+        // line-height: 1;
+        // font-size: 20rem;
+        // color: $color-grey-light-2;
+        // font-family: sans-serif;
+        // z-index: 1
     }
 }
 .user-reviews .btn-inline {
-    float: none;
+    // float: none;
 }
